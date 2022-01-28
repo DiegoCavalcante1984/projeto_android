@@ -99,6 +99,14 @@ main img.pequena{
 article > h1,h2{
   font-family: var(--font-android);
 }
+#video {
+ display: flex;
+ justify-content: center;
+ min-width:calc(80vw*0.5625);
+ margin: 10px auto;
+  
+
+}
 aside{
   background-color:#83e1ad;
   
