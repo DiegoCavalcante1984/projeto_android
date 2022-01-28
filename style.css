@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: "Android";
+  src: url(fontes/idroid.otf) format('opentype');
+  font-weight: normal;
+}
+
+
+:root{
+  --cor1:#c5ebd6;
+  --cor2:#83e1ad;
+  --cor3:#3ddc84;
+  --cor4:#2fa866;
+  --cor5:#1a5c37;
+  --cor6:#063d1e;
+
+  --font-android:"Android" ,cursive;
+  --font-destaque:'Bebas Neue', cursive;
+  --font-padrao: Arial,Verdana,Helvetica,sans-serif;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body{
+  background-color:#e5e6ac;
+  
+}
+header{
+  background-image:linear-gradient(#2fa866,#063d1e);
+  min-height: 150px;
+  padding-top: 30px;
+}
+header > h1{
+  color:white;
+  font-family:var(--font-destaque);
+  font-weight: normal;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.438);
+
+
+}
+header > p{
+  font-family:var(--font-padrao);
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.438);
+}
+nav{
+  
+  background-color: var(--cor6);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+  padding: 10px;
+}
+nav > a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+nav a:hover{
+  background-color: #2fa866;
+  color: white;
+  transition-duration: 0.7s;
+}
+main{
+  background-color: white;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+main img{
+  width: 100%;
+
+}
+main img.pequena{
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+article > h1,h2{
+  font-family: var(--font-android);
+}
+aside{
+  background-color:#83e1ad;
+  
+}
+aside h3{
+  background-color: var(--cor6);
+  color:white;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+footer{
+  background-color: var(--cor6);
+  color: white;
+  text-align: center;
+}
