@@ -92,6 +92,7 @@ main >h1 h3{
   background-image:linear-gradient(to right ,var(--cor2),var(--cor1)) ;
   text-indent: 5px;
   color:var(--cor6);
+ 
 }
 main p{
   margin: 15px 0 15px 0;
@@ -167,7 +168,7 @@ aside li{
   padding-bottom: 3px;
   
 }
-strong {
+main > strong {
   color:var(--cor6)
 }
 #social-media{
@@ -179,11 +180,12 @@ strong {
 #social-media a i{
   color:black;
   font-size: 20px;
-  padding:10px;
+  margin:0 10px 0 10px;
+  padding:20px;
   font-size: 30px;
   text-decoration: none;
   color:var(--cor6);
- 
+  
  
   
   
