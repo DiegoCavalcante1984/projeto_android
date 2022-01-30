@@ -88,7 +88,7 @@ main{
   border-bottom-right-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
 }
-main h1 ,h2{
+main >h1 ,h3{
   background-image:linear-gradient(to right ,var(--cor2),var(--cor1)) ;
   text-indent: 5px;
   color:var(--cor6);
@@ -121,7 +121,7 @@ main img.pequena{
   margin: auto;
 }
 
-article > h1,h2{
+article > h1,h3{
   font-family: var(--font-android);
 }
 #video {
@@ -137,8 +137,8 @@ aside{
   border-radius: 5px;
   box-shadow:0px 0px 10px rgba(0, 0, 0, 0.466);
 }
-aside h3{
-  background-color: var(--cor6);
+aside > h3{
+  background-color:black;
   color:white;
   margin-bottom: 10px;
   padding: 8px;
